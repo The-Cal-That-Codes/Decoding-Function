@@ -1,29 +1,3 @@
 # decode function
 
-## Project setup
-
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
+In this project I was responsible for the decode function in the rta-message-transformer.js file as well as the rudimentary styling of the page (it was just default html and built for demonstrating the functionality of the functions). I do not own this code as it was created on work time at IYP software. The functions to build the arrays which indicated the light display and generated the words represented as arrays of 1's & 0's (don't know if you can really consider this binary as it they are just visual representations of the words but I guess technically it is). The character set which I used to match the letters was also not created by me. My function finds out the size of the letters in each line, cuts them out and then matches them against the correct character set to determine the message that would have been displayed on the sign. This was so we could have the message displayed accessible through an API. 
