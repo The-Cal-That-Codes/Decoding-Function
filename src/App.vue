@@ -3,11 +3,11 @@
         <h1>Decoding Function Showcase</h1>
         <h3 style="margin-bottom: 50px">Type a word in each box, hit validate and then decode to see the output</h3>
         <div style="margin-bottom: 10px" v-for="(frame, index) in composition.frames" :key="index">
-            <input v-model="frame.line1" />
+            <input maxlength="7" v-model="frame.line1" />
 
-            <input v-model="frame.line2" />
+            <input maxlength="7" v-model="frame.line2" />
 
-            <input v-model="frame.line3" />
+            <input maxlength="7" v-model="frame.line3" />
         </div>
 
         <button style="margin-top: 50px" @click="addFrame()">Add frame</button>
